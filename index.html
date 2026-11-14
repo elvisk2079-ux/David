@@ -14,7 +14,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-bo
 button{font:inherit;color:inherit;cursor:pointer}
 
 /* hero */
-.hero{padding:28px 0 8px}
+.hero{padding-top:28px;padding-bottom:8px}
 .eyebrow{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:800;margin:0 0 6px}
 h1{font-family:var(--font-display);font-weight:900;font-size:clamp(28px,7vw,40px);line-height:1.1;margin:0 0 8px}
 .sub{margin:0;color:var(--muted)}
@@ -28,7 +28,7 @@ h1{font-family:var(--font-display);font-weight:900;font-size:clamp(28px,7vw,40px
 .count small{color:var(--muted);font-weight:600}
 
 main{padding:6px 0 80px}
-section.ex{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 16px;margin-top:18px;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+section.ex,a.ex{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 16px;margin-top:18px;box-shadow:0 1px 0 rgba(0,0,0,.02)}
 .ex-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 h2{font-family:var(--font-display);font-weight:900;font-size:22px;line-height:1.2;margin:0}
 h2 .n{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;font-size:15px;margin-right:8px;vertical-align:2px}
@@ -116,6 +116,23 @@ footer{color:var(--muted);font-size:13px;text-align:center;padding:24px 0 40px}
 .task-row .lbl{display:inline-flex;width:30px;height:30px;border-radius:8px;background:var(--teal);color:#fff;font-weight:900;align-items:center;justify-content:center}
 .task-row select{min-width:0;width:100%;text-overflow:ellipsis}
 .fc{height:88px}
+.bar .wrap{flex-direction:column;align-items:stretch;gap:8px}
+.tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;border:1.5px solid var(--line);background:#fff;border-radius:99px;padding:6px 14px;font-weight:800;font-size:15px}
+.tab.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.tab.done:not(.on){border-color:var(--ok);color:var(--ok)}
+.tab small{font-weight:900}
+.prog{display:flex;align-items:center;gap:12px}
+.hint{color:var(--muted);font-family:ui-monospace,Menlo,monospace;letter-spacing:2px;font-weight:600}
+.rule{font-size:13.5px;color:var(--teal);font-weight:700;margin-top:3px}
+.intro{margin:18px 0 0;padding:12px 14px;background:var(--teal-soft);border-radius:12px;color:var(--teal);font-weight:700;font-size:15px}
+.next{display:block;width:100%;margin-top:18px;padding:14px;font-size:17px}
+.mcol{display:flex;flex-direction:column;gap:8px}
+.ttl{margin:0 0 10px;text-align:center;font-size:20px}
+.tiles{gap:5px}
+.slots .tile{display:inline-flex;align-items:center;justify-content:center}
+.tab{padding:6px 11px;font-size:14px}
 </style></head><body>
 <header class="hero wrap"><p class="eyebrow">ОГЭ · Английский</p><h1>Давид · Слова из текстов ОГЭ</h1><p class="sub">Один урок — один текст из ОГЭ и 30 новых слов.</p></header>
-<main class="wrap"><a class="ex" style="display:block;text-decoration:none;color:inherit" href="h01.html"><p class="eyebrow">ОГЭ · Чтение · Заголовки · Урок 1</p><h2>Tourism — Туризм</h2><p class="note">30 слов</p></a></main></body></html>
+<main class="wrap"><a class="ex" style="display:block;text-decoration:none;color:inherit" href="h01.html"><p class="eyebrow">ОГЭ · Чтение · Заголовки · Урок 1</p><h2>Tourism — Туризм</h2><p class="note">30 слов</p></a><a class="ex" style="display:block;text-decoration:none;color:inherit" href="h02.html"><p class="eyebrow">ОГЭ · Чтение · Заголовки · Урок 2</p><h2>The Falkland Islands — Фолклендские острова</h2><p class="note">30 слов</p></a><a class="ex" style="display:block;text-decoration:none;color:inherit" href="h03.html"><p class="eyebrow">ОГЭ · Чтение · Заголовки · Урок 3</p><h2>Mobile Phones — Мобильные телефоны</h2><p class="note">30 слов</p></a><a class="ex" style="display:block;text-decoration:none;color:inherit" href="h04.html"><p class="eyebrow">ОГЭ · Чтение · Заголовки · Урок 4</p><h2>London — Лондон</h2><p class="note">30 слов</p></a><a class="ex" style="display:block;text-decoration:none;color:inherit" href="h05.html"><p class="eyebrow">ОГЭ · Чтение · Заголовки · Урок 5</p><h2>The Channel Tunnel — Тоннель под Ла-Маншем</h2><p class="note">30 слов</p></a><a class="ex" style="display:block;text-decoration:none;color:inherit" href="t01.html"><p class="eyebrow">ОГЭ · Чтение · True / False / Not stated · Урок 6</p><h2>The Owl — Сова</h2><p class="note">30 слов</p></a><a class="ex" style="display:block;text-decoration:none;color:inherit" href="t02.html"><p class="eyebrow">ОГЭ · Чтение · True / False / Not stated · Урок 7</p><h2>Cambridge University — Кембриджский университет</h2><p class="note">30 слов</p></a><a class="ex" style="display:block;text-decoration:none;color:inherit" href="t03.html"><p class="eyebrow">ОГЭ · Чтение · True / False / Not stated · Урок 8</p><h2>Eton — Итонский колледж</h2><p class="note">30 слов</p></a><a class="ex" style="display:block;text-decoration:none;color:inherit" href="t04.html"><p class="eyebrow">ОГЭ · Чтение · True / False / Not stated · Урок 9</p><h2>Potatoes — Картофель</h2><p class="note">30 слов</p></a><a class="ex" style="display:block;text-decoration:none;color:inherit" href="t05.html"><p class="eyebrow">ОГЭ · Чтение · True / False / Not stated · Урок 10</p><h2>The Crown Jewels — Королевские драгоценности</h2><p class="note">30 слов</p></a></main></body></html>

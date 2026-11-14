@@ -2,7 +2,7 @@ const L = {
   id: "h01", short: "Урок 1 · Tourism",
   eyebrow: "ОГЭ · Чтение · Заголовки · Урок 1",
   title: "Tourism — Туризм",
-  sub: "30 новых слов из текста ОГЭ про туризм. Листай вниз и выполняй задания по порядку — в конце ты прочитаешь сам текст и сделаешь задание ОГЭ.",
+  sub: "30 новых слов из текста ОГЭ «Tourism».",
   words: [
     { id: "escape", en: "escape", ru: "сбежать, вырваться", pos: "v", gap: "When travelling for recreation, people want to ___ their stressful daily routine and to relax.", ans: "escape" },
     { id: "stressful", en: "stressful", ru: "напряжённый, полный стресса", pos: "adj", gap: "People want to escape their ___ daily routine and to relax.", ans: "stressful" },

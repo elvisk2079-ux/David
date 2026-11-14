@@ -15,7 +15,7 @@ for f in sorted(glob.glob(os.path.join(base, 'lessons', '*.js'))):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
 <style>{css}</style></head><body>
 <header class="hero wrap"><p class="eyebrow">{e(meta["eyebrow"])}</p><h1>{e(meta["title"])}</h1><p class="sub">{e(meta["sub"])}</p></header>
-<div class="bar"><div class="wrap"><div class="track"><div class="fill" id="fill"></div></div><span class="count" id="cnt"></span></div></div>
+<div class="bar"><div class="wrap"><nav class="tabs" id="tabs"></nav><div class="prog"><div class="track"><div class="fill" id="fill"></div></div><span class="count" id="cnt"></span></div></div></div>
 <main class="wrap" id="main"></main>
 <footer class="wrap"><a href="./" style="color:inherit">Все уроки</a> · Ответы сохраняются в этом браузере</footer>
 <script>
